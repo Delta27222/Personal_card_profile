@@ -1,0 +1,7 @@
+.round{
+    padding: 7px;
+    border-radius: 50%;
+    border: 1px solid #03BFCB ;
+    width: 128px;
+    height: 120px;
+}

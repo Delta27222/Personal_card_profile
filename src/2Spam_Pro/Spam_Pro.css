@@ -1,0 +1,11 @@
+.pro{
+    color: black;
+    padding: 3px 7px;
+    background-color:#FEBB0B;
+    border-radius: 3px;
+    font-weight: bold;
+
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}

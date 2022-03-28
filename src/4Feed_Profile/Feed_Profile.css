@@ -1,0 +1,13 @@
+.name{
+    margin: 10px 0;
+}
+
+.city{
+    margin: 5px 0;
+    text-transform: uppercase;
+}
+
+.aboutMe{
+    font-size: 14px;
+    line-height: 21px;
+}

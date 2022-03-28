@@ -1,0 +1,30 @@
+.skills_container{
+    background-color: #1F1A36;
+    margin-top: 30px;
+    padding: 15px;
+    text-align: left;
+    border-radius: 0 0 5px 5px;
+    position: relative;
+    top: 38px;
+}
+
+.skills_container h6{
+    margin: 5px 0;
+    text-transform: uppercase
+}
+.list_skills{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.list_skills li{
+    border: 1px solid #2D2747;
+    border-radius: 2px;
+    display: inline-block;
+    font-size: 12px;
+    margin: 0 7px 7px 0;
+    padding: 7px;
+}
+.list_skills li:hover{
+    border: 1px solid rgba(255, 255, 255, 0.301);
+}
