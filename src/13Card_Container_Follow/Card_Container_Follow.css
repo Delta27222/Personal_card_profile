@@ -1,0 +1,38 @@
+.card_container_follow{
+    height: 501px;
+    width: 350px;
+    background-color: #231E39;
+    border-radius: 5px;
+    box-shadow: 0px 10px 20px -10px rgb(0 0 0 / 75%);
+    color: #B3B8CD;
+    padding-top: 30px;
+    position: relative;
+    text-align: center;
+}
+.tittle{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    top: 50px;
+}
+.list_social_media{
+    position: relative;
+    top: 50px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icon:hover{
+    border-radius: 100%;
+    fill: rgb(33, 66, 97);
+    transform: scale(1.25);
+    transition: background-color .5s, transform .5s ease-out;
+    
+}
+.icon1{
+    width: 70px;
+    height: 70px;
+}

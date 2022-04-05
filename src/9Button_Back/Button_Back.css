@@ -1,0 +1,12 @@
+.back{
+    position: absolute;
+    top: 29px;
+    left: 295px;
+}
+.back:hover{
+    transform: scale(1.2);
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}

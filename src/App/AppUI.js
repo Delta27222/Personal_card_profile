@@ -6,7 +6,8 @@ import { Context } from "../Context";
 
 import { Card_Container } from '../1Card_Container/index.js'
 import { Modal } from "../7Modal/index.js";
-import { Card_Container_Projects } from "../7Modal/1Card_Container_Projects/index.js";
+import { Card_Container_Projects } from "../10Card_Container_Projects/index.js";
+import { Card_Container_Follow } from "../13Card_Container_Follow/index.js";
 
 function AppUI () {
         // Aqui usaremos un nuevo HOOK
@@ -35,7 +36,9 @@ function AppUI () {
             )}
             { !!openModal && modalMessage===2 &&(
                 <Modal>
-                    <h1>Following</h1>
+                    <Card_Container_Follow
+                        setOpenModal={setOpenModal}
+                    />
                 </Modal>
             )}
         </React.Fragment>

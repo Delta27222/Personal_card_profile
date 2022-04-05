@@ -19,7 +19,7 @@ function Container_Buttons(props){
             <button
                 className="button_Ghost"
                 onClick={onClickButtonFollowing}
-            >Following</button>
+            >Follow me</button>
         </div>
     );
 }

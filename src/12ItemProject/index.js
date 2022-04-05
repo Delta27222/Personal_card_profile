@@ -4,7 +4,7 @@ import './Project.css';
 function Project(props){
     return(
         <React.Fragment>
-            <a href={props.link}target="_blank" className="a">
+            <a href={props.link} target="_blank" className="a">
                 <li className="itemList">
                     <div className="container_project">
                             <div className="container_info">
