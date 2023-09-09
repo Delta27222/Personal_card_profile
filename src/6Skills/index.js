@@ -6,12 +6,13 @@ function Skills(){
         <div className="skills_container">
             <h6>Skills</h6>
             <ul className="list_skills">
-                <li>Django</li>
                 <li>Front End Development</li>
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
-                <li>React</li>
+                <li>ReactJs</li>
+                <li>NextJs</li>
+                <li>Tailwind CSS</li>
             </ul>
         </div>
     );
